@@ -1,0 +1,37 @@
+.photos-container {
+    margin-top: 200px;
+    width: 100%;
+    margin-top: 30px;
+    height: 50px;
+    p {
+        color: white;
+        text-align: center;
+        margin-left: 300px;
+        font-size: 15px;
+        display: inline-block;
+        margin-top: 8px;
+    }
+}
+
+.para {
+    p {
+        display: inline-block;
+        margin-left: 700px;
+        color: rgb(231, 151, 1);
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    .photo {
+        border: 1px solid black;
+        width: 150px;
+        height: 150px;
+        background-color: rgb(214, 214, 214);
+        margin-left: 150px;
+    }
+}
