@@ -7,11 +7,20 @@ import { AdminComponent } from './components/admin/admin.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
-import { AngularFontAwesomeModule } from 'angular-font-awesome';
+import { MatIconModule } from '@angular/material/icon';
+import { CreatetempComponent } from './components/createtemp/createtemp.component';
+import { EdittemplateComponent } from './components/edittemplate/edittemplate.component';
+import { EditedComponent } from './components/edited/edited.component';
+
+
+
 @NgModule({
   declarations: [
     LoginComponent,
-    AdminComponent
+    AdminComponent,
+    CreatetempComponent,
+    EdittemplateComponent,
+    EditedComponent
   ],
   imports: [
     CommonModule,
@@ -19,7 +28,8 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
-    AngularFontAwesomeModule
+    MatIconModule
+
   ]
 })
 export class AdminModule { }
