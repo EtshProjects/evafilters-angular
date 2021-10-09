@@ -11,7 +11,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { CreatetempComponent } from './components/createtemp/createtemp.component';
 import { EdittemplateComponent } from './components/edittemplate/edittemplate.component';
 import { EditedComponent } from './components/edited/edited.component';
-
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -28,7 +28,8 @@ import { EditedComponent } from './components/edited/edited.component';
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
-    MatIconModule
+    MatIconModule,
+    HttpClientModule
 
   ]
 })

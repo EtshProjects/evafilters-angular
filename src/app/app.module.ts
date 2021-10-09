@@ -7,7 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
+import { CustomerModule } from './customer/customer.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +17,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     BrowserModule,
     AppRoutingModule,
     AdminModule,
-    BrowserAnimationsModule,MatIconModule, NgbModule
+    BrowserAnimationsModule, MatIconModule, NgbModule,
+    CustomerModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
